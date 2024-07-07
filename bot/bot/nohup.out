@@ -1,0 +1,70 @@
+Watching for file changes with StatReloader
+Validating models...
+
+System check identified no issues (0 silenced).
+July 07, 2024 - 12:28:22
+Django version 4.2.1, using settings 'bot.settings'
+Starting development server at https://0.0.0.0:8000/
+Using SSL certificate: /root/env/lib/python3.9/site-packages/sslserver/certs/development.crt
+Using SSL key: /root/env/lib/python3.9/site-packages/sslserver/certs/development.key
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Validating models...
+
+System check identified no issues (0 silenced).
+July 07, 2024 - 12:29:42
+Django version 4.2.1, using settings 'bot.settings'
+Starting development server at https://0.0.0.0:8453/
+Using SSL certificate: /root/env/lib/python3.9/site-packages/sslserver/certs/development.crt
+Using SSL key: /root/env/lib/python3.9/site-packages/sslserver/certs/development.key
+Quit the server with CONTROL-C.
+Invalid HTTP_HOST header: '207.244.245.105:8000'. You may need to add '207.244.245.105' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/root/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/root/env/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/root/env/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/root/env/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '207.244.245.105:8000'. You may need to add '207.244.245.105' to ALLOWED_HOSTS.
+Bad Request: /
+[07/Jul/2024 12:31:14] "GET / HTTP/1.1" 400 65029
+Invalid HTTP_HOST header: '207.244.245.105:8000'. You may need to add '207.244.245.105' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/root/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/root/env/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/root/env/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/root/env/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '207.244.245.105:8000'. You may need to add '207.244.245.105' to ALLOWED_HOSTS.
+Bad Request: /
+[07/Jul/2024 12:31:16] "GET / HTTP/1.1" 400 65029
+Invalid HTTP_HOST header: '207.244.245.105:8000'. You may need to add '207.244.245.105' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/root/env/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/root/env/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/root/env/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/root/env/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '207.244.245.105:8000'. You may need to add '207.244.245.105' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[07/Jul/2024 12:31:17] "GET /favicon.ico HTTP/1.1" 400 64824
+/root/bot/messenger-chatbot/bot/bot/bot/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Validating models...
+
+System check identified no issues (0 silenced).
+July 07, 2024 - 12:32:36
+Django version 4.2.1, using settings 'bot.settings'
+Starting development server at https://0.0.0.0:8000/
+Using SSL certificate: /root/env/lib/python3.9/site-packages/sslserver/certs/development.crt
+Using SSL key: /root/env/lib/python3.9/site-packages/sslserver/certs/development.key
+Quit the server with CONTROL-C.
